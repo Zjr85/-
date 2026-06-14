@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+venv/
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Logs and test files
+*.log
+*.txt
+weather_result.txt
+test_result*.txt
+output.txt
+result.txt
+kimi_test_log.txt
+usda_result.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSL certificates
+*.pem
+*.crt
+*.key
+
+# Database
+*.db
+*.sqlite
+
+# Image uploads
+backend/static/images/*
+!backend/static/images/.gitkeep
